@@ -75,8 +75,7 @@ h1:hover {
     
 }
 .info form:hover{
-    background-color: #07219f; /*#fb9732;*/
-    opacity:1;
+    opacity:0.9;
 }
 img{
     float:none;
@@ -96,7 +95,7 @@ img:hover {
 }
 
 form{
-    background-color: #07219f;/* #69d632; /* #4CAF50; /* Green */
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     text-decoration: none;
@@ -113,7 +112,7 @@ form{
     list-style-type:none;
     list-style-position:outside;
     margin-bottom:96px;
-    opacity:0.9;
+    opacity:0.6;
     
 }
 
