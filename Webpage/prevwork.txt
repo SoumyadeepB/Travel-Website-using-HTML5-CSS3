@@ -1,0 +1,202 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url("img1.jpg");
+  height: 500px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+    background-image:url("img1.jpg");
+  height: 500px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.nav{
+    background-image:url(img2.jpg);
+    background-position:top;
+    width:100%;
+    height:33%;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    
+}
+
+<div class="jumbotron">
+      <div class="container">
+        <h1>Find a place to stay.</h1>
+        <p>Rent from people in over 34,000 cities and 192 countries.</p>
+      </div>
+    </div> 
+
+    <div class="learn-more">
+    <div>
+    <div>
+        <div>
+      <h3>Travel</h3>
+      <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+      <p><a href="#">See how to travel on Airbnb</a></p>
+      </div>
+      <div>
+      <h3>Host</h3>
+      <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+      <p><a href="#">Learn more about hosting</a></p>
+        </div>
+      <div>
+      <h3>Trust and Safety</h3>
+      <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+      <p><a href="#">Learn about trust at Airbnb</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  COMPLETED
+  
+  a {
+  color:whitesmoke;
+  text-decoration: none;
+ }
+img{
+    min-width:100%;
+    min-height: 100%;
+    height:auto;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.logo img:hover {
+    opacity: 0.8;
+    -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+   
+}
+body{
+    background-image:url('img2.jpg'); 
+    opacity:1.0;
+      min-width:100%;
+    min-height: 100%;
+  background-size: cover;
+    background-repeat: repeat-y;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+.nav li{
+    font-size:42px;
+    font-family:cookie;
+    color: whitesmoke;
+    font-weight:normal;
+    display: inline;
+    padding-top: 420px;
+    padding-left: 33px;
+    padding-right:33px;
+    padding-bottom: 20px;
+    background-position: center;
+    opacity:.3;
+    
+}
+
+li:hover {
+    opacity: 1.0;
+    font-size:60px;
+    
+}
+.logo h1{
+    font-size:132px;
+    font-family:cookie;
+    color: black;
+    font-weight: normal;
+    margin-top: 0%;
+    margin-right:0px;
+    float:left;
+    position: absolute;
+    top:90px;
+    left:330px;
+    padding:24px 0 24px 0;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+h1:hover {
+    opacity: 0.6;
+    font-size:152px;
+}
+
+li
+{
+    float: left;
+    margin: 5px;
+    padding: 6px;
+    width: 200px;
+    height: 200px;
+    border: solid black 6 px;
+    margin-top:20%;
+    font-size:24px;
+    font-family:cookie;
+    color: whitesmoke;
+    font-weight:90px;
+    top: 60%;
+    display:inline;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: gainsboro;
+    display:inline;
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: orange;
+    padding:10px 10px 10px 10px;
+    color: white;
+}
+.logo {
+  border-top: 2px solid #648880;
+  padding: 15px 15px 15px 15px;
+    
+  float: left;
+}
