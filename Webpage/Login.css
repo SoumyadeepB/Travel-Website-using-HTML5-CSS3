@@ -4,16 +4,17 @@
     width:50%;
     font-family: rosario;
     font-size: 60px;
-    
 }
 
 .name{    
        font-family: cookie;
        font-size: 39px;    
 }
+
 .info form:hover{
     opacity:.8;
 }
+
 img{
     float:none;
     position:absolute;
