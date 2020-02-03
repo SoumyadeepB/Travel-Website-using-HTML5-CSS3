@@ -1,19 +1,15 @@
 
-.info{
-    
+.info{    
     height: 300px;
     width:50%;
     font-family: rosario;
     font-size: 60px;
     
-    
 }
 
-.name{
-    
+.name{    
        font-family: cookie;
-       font-size: 39px;
-    
+       font-size: 39px;    
 }
 .info form:hover{
     opacity:.8;
